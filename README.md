@@ -6,9 +6,9 @@ A computer vision project that converts real-world images into cartoon-style rep
 
 ## Description
 
-Cartoon Vision is an image processing program designed to transform standard photographs into stylized cartoon images. The system applies a sequence of computer vision techniques to simplify visual details while preserving essential structures such as edges and object boundaries.
+Cartoon Vision is a program that transforms a normal image into a cartoon-style image. It uses basic image processing techniques such as noise reduction, edge detection, and color simplification.
 
-The transformation process focuses on reducing noise, enhancing edges, limiting color variations, and improving visual clarity. As a result, the output image achieves a cartoon-like appearance characterized by bold outlines and smooth, vivid color regions.
+The final result shows clear edges and smooth, bright colors, similar to a cartoon image.
 
 ---
 
@@ -53,12 +53,9 @@ cartoon_output.jpg
 
 ## Input and Output
 
-### Input Image
-![Input Image](input.jpg)
-
-### Output Image
-![Output Image](cartoon_output.jpg)
-
+| Input Image | Output Image |
+|------------|-------------|
+| ![Input](input.jpg) | ![Output](cartoon_output.jpg) |
 ---
 
 ## Project Structure
@@ -71,17 +68,17 @@ Cartoon-Vision/
  
 ---
 
-## Methodology
+## Processing
 
-The program follows a multi-stage image processing pipeline:
+The image is processed through several stages to achieve a cartoon-style effect:
 
-1. The input image is smoothed using bilateral filtering to reduce noise while preserving important edges.  
+1. The input image is smoothed using bilateral filtering to reduce noise while preserving edges.  
 2. The image is converted to grayscale for edge detection.  
 3. The Laplacian operator is applied to extract prominent edges.  
-4. A sharpening filter is used to enhance structural details.  
-5. K-means clustering is applied to reduce the number of colors, producing flat color regions.  
-6. Edge information is combined with the quantized image to form a cartoon effect.  
-7. The final image is enhanced in the HSV color space to improve brightness and color intensity.  
+4. A sharpening filter enhances important details.  
+5. K-means clustering reduces the number of colors to create flat regions.  
+6. Edge information is combined with the simplified image.  
+7. The final result is enhanced by adjusting brightness and saturation. 
 
 ---
 
