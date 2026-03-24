@@ -49,16 +49,19 @@ cartoon_output.jpg
 ## Input and Output
 
 <p align="center">
-  <img src="input.jpg" width="45%" />
-  <img src="cartoon_output.jpg" width="45%" />
+  <img src="input.jpg" width="400" height="300"/>
+  <img src="cartoon_output.jpg" width="400" height="300"/>
 </p>
+
 ## Project Structure
 
+```
 Cartoon-Vision/
 ├── README.md
 ├── cartoon.py
 ├── input.jpg
 └── cartoon_output.jpg
+```
 ---
 
 ## Processing
