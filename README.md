@@ -67,7 +67,8 @@ Cartoon-Vision/
 
 The image is processed through several stages to achieve a cartoon-style effect:
 
-1. The input image is smoothed using bilateral filtering to reduce noise while preserving edges. 2. The image is converted to grayscale for edge detection.  
+1. The input image is smoothed using bilateral filtering to reduce noise while preserving edges.
+2. The image is converted to grayscale for edge detection.  
 3. The Laplacian operator is applied to extract prominent edges.  
 4. A sharpening filter enhances important details.  
 5. K-means clustering reduces the number of colors to create flat regions.  
