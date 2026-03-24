@@ -40,7 +40,7 @@ pip install opencv-python numpy
 2. Rename the file as:
 input.jpg  
 3. Execute the program:
-python cartoon.py  
+python cartoonrendering.py  
 4. The processed image will be saved as:
 cartoon_output.jpg  
 
