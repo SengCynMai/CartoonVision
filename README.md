@@ -55,13 +55,12 @@ cartoon_output.jpg
 
 ## Project Structure
 
-```
 Cartoon-Vision/
 ├── README.md
 ├── cartoon.py
 ├── input.jpg
 └── cartoon_output.jpg
-```
+
 ---
 
 ## Processing
