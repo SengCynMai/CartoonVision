@@ -54,7 +54,7 @@ cartoon_output.jpg
 ## Input and Output
 
 | Input Image | Output Image |
-|------------|-------------|
+|---------|-------------|
 | ![Input](input.jpg) | ![Output](cartoon_output.jpg) |
 ---
 
