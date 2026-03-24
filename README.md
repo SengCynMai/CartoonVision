@@ -53,15 +53,6 @@ cartoon_output.jpg
   <img src="cartoon_output.jpg" width="400" height="300"/>
 </p>
 
-## Project Structure
-
-Cartoon-Vision/
-├── README.md
-├── cartoon.py
-├── input.jpg
-└── cartoon_output.jpg
-
----
 
 ## Processing
 
