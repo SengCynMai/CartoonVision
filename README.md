@@ -53,10 +53,10 @@ cartoon_output.jpg
 
 ## Input and Output
 
-| Input Image | Output Image |
-|---------|-------------|
-| ![Input](input.jpg) | ![Output](cartoon_output.jpg) |
----
+<p align="center">
+  <img src="input.jpg" width="400" height="300"/>
+  <img src="cartoon_output.jpg" width="400" height="300"/>
+</p>
 
 ## Project Structure
 
