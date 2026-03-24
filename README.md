@@ -38,15 +38,10 @@ pip install opencv-python numpy
 
 1. Place your input image in the project directory  
 2. Rename the file as:
-
 input.jpg  
-
 3. Execute the program:
-
 python cartoon.py  
-
 4. The processed image will be saved as:
-
 cartoon_output.jpg  
 
 ---
@@ -72,8 +67,7 @@ Cartoon-Vision/
 
 The image is processed through several stages to achieve a cartoon-style effect:
 
-1. The input image is smoothed using bilateral filtering to reduce noise while preserving edges.  
-2. The image is converted to grayscale for edge detection.  
+1. The input image is smoothed using bilateral filtering to reduce noise while preserving edges. 2. The image is converted to grayscale for edge detection.  
 3. The Laplacian operator is applied to extract prominent edges.  
 4. A sharpening filter enhances important details.  
 5. K-means clustering reduces the number of colors to create flat regions.  
